@@ -1,0 +1,382 @@
+@font-face {
+	font-family: 'FuturaLTBook'; 
+	src: url('../fonts/futura_lt_book.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/futura_lt_book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/futura-lt-book.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/futura-lt-book.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/futura-lt-book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/futura-lt-book.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'FuturaLTBold'; 
+	src: url('../fonts/futura_lt_bold_.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/futura_lt_bold_.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/futura-lt-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/futura-lt-bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/futura-lt-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/futura-lt-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'FuturaLTBoldObilique'; 
+	src: url('../fonts/futura_lt_bold_oblique.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/futura_lt_bold_oblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/futura-lt-bold-oblique.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/futura-lt-bold-oblique.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/futura-lt-bold-oblique.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/futura-lt-bold-oblique.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+body {
+	font-family: 'FuturaLTBook', Fallback, sans-serif;
+}
+/* Top Bar Area CSS Start */
+.construct_top_bar {
+	display:block;
+	width: 100%;
+	height: 100%;
+    background: #ffcb0f;
+    height: 30px;
+	
+}
+.construct_top_bar ul li {
+	display: inline-block;
+	padding: 5px;
+} 
+.construct_top_bar a {
+	color: #000000;
+}
+.construct_top_bar_contact_time_ul {
+	margin-bottom: 0px;
+}
+.construct_top_bar_contact_time_ul li {
+	float: left;
+}
+.construct_top_bar_contact_time ul li a {
+	text-decoration: none;
+}
+.construct_top_bar_social {
+	text-align: right;
+}
+.construct_top_bar_social_ul {
+	margin-right: 70px;
+	padding-left: 0;
+	text-align: right;
+}
+/* Top Bar Area CSS End */
+/* Main Menu Area CSS Start */
+.construct_nav_menu_logo_tag{
+	min-height: 70px !important;
+	margin-bottom: 0px !important;
+	background: #222533 none repeat scroll 0 0 !important;
+	border-color: #222533 !important;
+    border-radius: 0 !important;
+}
+.construct_logo_tagline_together{
+	top: -10px;
+	padding-left: 54px !important;
+}
+.construct_logo_tagline {
+	
+}
+.construct_logo_construction {
+	font-family: 'FuturaLTBoldObilique', Fallback, sans-serif;
+	color: #ffcb0f;
+	font-size: 20px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+.construct_logo_tagline{
+	font-family: 'FuturaLTBook', Fallback, sans-serif;
+	color: #fff;
+	font-size: 14px;
+}
+.construct_nav_menu ul li a {
+	color: #fff !important;	
+}
+/* Main Menu Area CSS End */
+/* Banner And Text Area CSS Start */
+.construct_banner_text_content_area {
+	background: url("../images/back_black_1.png") repeat scroll 0 0%, rgba(0, 0, 0, 0.5) url("../images/banner_1.jpg") no-repeat scroll 50% 50% / cover ;
+	height: 560px;
+	width: 100%;
+	position: relative; 
+	text-align: center;
+}
+.construct_banner_text_area{
+	position: absolute;
+	top: 70px;
+	text-align: center;
+	left: 0;
+	right: 0;
+}
+.construct_certified_text{
+	font-family: 'FuturaLTBook', Fallback, sans-serif;
+	font-size: 35px;
+	color: #FFFFFF;
+}
+.construct_services_text {
+	color: #ffffff;
+	font-family: "FuturaLTBold";
+	font-size: 55px;
+	text-transform: uppercase; 
+}
+.construct_creative_text{
+	color: #ffcb0f;
+	font-family: "FuturaLTBold";
+	font-size: 55px;
+	text-transform: uppercase;
+}
+.construct_banner_para_text {
+	color: #ffffff;
+	display: block;
+	font-family: "FuturaLTBook";
+	margin: 0 auto;
+	max-width: 825px;
+	padding-top: 10px;
+}
+.banner_button{
+	padding-top: 50px;
+}
+.banner_button > .construct_button, .construct_welcome_company_button > .construct_button, .construct_our_services_button > .construct_button {
+	background-color: #ffcb0f;
+	border-color: none;
+	border: 0px;
+	line-height: 12px;
+	font-family: "FuturaLTBold";
+	font-size: 12px;
+	color:#FFFFFF;
+	text-transform: uppercase;
+}
+.banner_button > .construct_button:hover , .construct_welcome_company_button > .construct_button:hover, .construct_our_services_button > .construct_button:hover  {
+	background-color: #ddae04;
+}
+/* Banner And Text Area CSS End */  
+/* Welcome Our Company Area CSS Start */
+.construct_welcome_company_text_button_area {
+	padding-top: 50px;
+}
+.construct_welcome_h2 {
+	font-family: "FuturaLTBold";
+	font-size: 35px;
+	color: #ffcb0f;
+	text-transform: uppercase;
+	
+}
+.construct_welcome_h5{
+	font-family: "FuturaLTBold";
+	font-size: 25px;
+}
+.construct_welcome_para {
+	font-family: "FuturaLTBook";
+	color: #484848;
+	padding: 5px 0px;
+}
+.construct_welcome_company_button {
+	padding-bottom: 10px;
+}
+.construct_welcome_company_image_area {
+	background: url("../images/welcome_company_man_1.png") no-repeat scroll 45% 0% / contain, url("../images/welcome_company_team_man_1.png") no-repeat scroll 45% 0% ;
+	height: 360px;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+}
+/* Welcome Our Company Area CSS End */ 
+
+/* Why Choose Us Area CSS Start */
+.construct_why_choose_us {
+	background: #f2f7fa;
+}
+.construct_why_choose_us_title_para h2 { 
+	font-family: 'FuturaLTBold';
+	color: #484848;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 25px;
+}
+.construct_why_choose_us_title_para p {
+	font-family: "FuturaLTBook";
+	color: #484848;
+	text-align: center;
+	padding: 25px;
+}
+.construct_we_deliver_quality, .construct_always_on_time, .construct_we_are_pasionate, .construct_professional_services {
+	text-align: center;
+}
+.construct_professional_services {
+	padding-bottom: 50px;
+}
+.construct_we_deliver_quality > img {
+	display: block;
+	height: 180px;
+	width: 180px;
+	margin: 0 auto;
+}
+.construct_always_on_time > img {
+	display: block;
+	height: 180px;
+	width: 180px;
+	margin: 0 auto;
+}
+.construct_we_are_pasionate > img {
+	height: 180px;
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+}
+.construct_professional_services > img {
+	height: 180px;
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+}
+.construct_we_deliver_quality > h6 ,.construct_always_on_time > h6 , .construct_we_are_pasionate > h6 , .construct_professional_services > h6 {
+	font-family: 'FuturaLTBold';
+	color: #484848;
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.construct_we_deliver_quality > p ,.construct_always_on_time > p , .construct_we_are_pasionate > p , .construct_professional_services > p {
+	font-family: "FuturaLTBook";
+	color: #484848;
+	text-align: center;
+}
+/* Why Choose Us Area CSS End */
+/* Our Services Area CSS Start */
+.construct_our_services_title h2 { 
+	font-family: 'FuturaLTBold';
+	color: #484848;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.construct_construction_management, .construct_renovation , .construct_architecture {
+	padding-bottom: 30px;
+}
+.construct_construction_management > img {
+	display: block;
+	height: 260px;
+	width: 100%;
+	margin: 0 auto;
+}
+.construct_renovation > img {
+	display: block;
+	height: 260px;
+	width: 100%;
+	margin: 0 auto;
+}
+.construct_architecture > img {
+	height: 260px;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+.construct_construction_management > h6, .construct_renovation > h6, .construct_architecture > h6 {
+	font-family: 'FuturaLTBold';
+	color: #484848;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-top: 5px;
+}
+.construct_construction_management > p, .construct_renovation > p, .construct_architecture > p  {
+	font-family: "FuturaLTBook";
+	color: #484848;
+}
+/* Our Services Area CSS End */
+
+/* Portfolio Part Start */
+.portfolio_images_show > ul {
+	padding-left: 0;
+	text-align: center;
+}
+.portfolio_img_1 {
+	display: block;
+    padding-right: 5px !important;
+	padding-bottom: 10px;
+}
+.portfolio_img_1 > img {
+	width: 100%;
+	max-height: 410px;
+}
+.portfolio_img_2 {
+	display: block;
+	padding-bottom: 10px;
+	padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.portfolio_img_2 > img {
+	width: 100%;
+	height: 200px;
+}
+
+.portfolio_images_show .mix {
+	display: none;
+}
+/* Portfolio Part End */
+
+/* ========= 320px ----- 480px  ============= */
+
+
+@media only screen   and (min-width: 320px) and (max-width: 480px) {
+	.construct_top_bar {
+		display:block;
+		width: 100%;
+		height: 100%;
+		background: #ffcb0f;
+	}
+	.construct_top_bar_social_ul {
+		margin-right: 0px;
+	}
+	.construct_top_bar_contact_time_ul {
+		margin: 10px;
+	}
+	.construct_top_bar_contact_time_ul li {
+		float: left;
+	}
+	.construct_certified_text {
+		font-size: 25px;
+	}
+	.construct_services_text,.construct_creative_text {
+		font-size: 35px;
+	}
+	.construct_construction_management > img {
+		height: 205px;
+	}
+	.construct_renovation > img {
+		height: 205px;
+	}
+	.construct_architecture > img {
+		height: 205px;
+	}
+}
+
+
+/* ========= 320px ----- 568px  ============= */
+
+
+@media only screen   and (min-width: 320px) and (max-width: 568px) {
+	.construct_top_bar {
+		display:block;
+		width: 100%;
+		height: 100%;
+		background: #ffcb0f;
+	}
+	.construct_top_bar ul li {
+		display: inline-block;
+		padding: 5px;
+		text-align: center;
+	}
+	.construct_top_bar_contact_time_ul {
+		margin: 10px;
+		display: inline-block;
+	}
+	.construct_top_bar_contact_time_ul li {
+		float: left;
+	}
+}
+
